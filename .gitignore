@@ -1,0 +1,31 @@
+# --- Секреты. Главное, что не должно попасть в репозиторий ---
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# --- Окружение ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.python-version
+
+# --- Данные. Выгрузки из academy_db наружу не выкладываем ---
+data/
+*.csv
+*.parquet
+*.xlsx
+*.db
+*.sqlite3
+
+# --- Служебное ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
